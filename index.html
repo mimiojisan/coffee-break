@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/effect.js"></script>
+
+    <title>Coffee Break</title>
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header>
+        <div id="header">
+            <div class="slide">
+                <button class="menu-trigger" id="menu-trigger">
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="gnav">
+                    <ul>
+                        <li class="txt-fc-in"><a href="#" title="私たちについて">私たちについて</a></li>
+                        <li class="txt-fc-in"><a href="#" title="カテゴリー">カテゴリー</a></li>
+                        <li class="txt-fc-in"><a href="#" title="おすすめ">おすすめ</a></li>
+                        <li class="txt-fc-in"><a href="#" title="お得な情報">お得な情報</a></li>
+                        <li class="txt-fc-in"><a href="#" title="スタッフブログ">スタッフブログ</a></li>
+                    </ul>
+                    <ul>
+                        <li class="txt-fc-in"><a href="#" title="About Us">About Us</a></li>
+                        <li class="txt-fc-in"><a href="#" title="Category">Category</a></li>
+                        <li class="txt-fc-in"><a href="#" title="Recommend">Recommend</a></li>
+                        <li class="txt-fc-in"><a href="#" title="Coupon">Coupon</a></li>
+                        <li class="txt-fc-in"><a href="#" title="Staff Blog">Staff Blog</a></li>
+                    </ul>
+                </nav>    
+                <div id="scrollGo">scroll</div> 
+            </div>
+        </div> 
+    </header>
+
+    <div class="mainContents">
+        <!-- イメージ（左） -->
+        <div id="visual">
+            <div class="visual-wrap">
+                <div class="visual-inner">
+                    <div class="logo">
+                        <img src="img/logo-coffee.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div id="main">
+                <div id="main-inner">
+                    <!-- イメージ上（右） -->
+                    <div class="top-main">
+                        <div class="img"></div>
+                    </div>
+                    <div id="top-inner">
+
+                        <!-- トップメッセージ -->
+                        <section class="sec-copy">
+                            <h2>自分好みの一杯を探しに。</h2>
+                            <p>世界中にあるコーヒー豆から<br>あなたに合う最高の一杯をご提供いたします。<br>当店の9種類の豆は、<br>酸味、苦味、焼き方（浅目、深め）、甘味と、<br>どのタイプの珈琲をお求めになられても対応できるように<br>豆の品種を、網羅して選定しております。</p>
+                            <p>「最高の珈琲を飲んでいただきたい」。<br>これが私たちの信念であり、あなたとのお約束です。</p>
+                        </section>
+
+                        <!-- カテゴリー -->
+                        <section class="sec-category">
+                            <ul class="category-list">
+                                <li class="daily">
+                                    <figure>
+                                        <a href="#" title="いつものコーヒー">
+                                            <img src="img/img-category@1x.jpg" alt="いつものコーヒー">
+                                        </a>
+                                    </figure>
+                                    <div>
+                                        <h2>
+                                            <a href="#" title="いつものコーヒー">
+                                                <strong>いつものコーヒーを</strong>
+                                            </a>
+                                        </h2>
+                                        <p>オリジナルブレンド、水出しコーヒーなど、幅広くご用意しています。</p>
+                                    </div>
+                                </li>
+                                <li class="office">
+                                    <figure>
+                                        <a href="#" title="オフィスでの一杯">
+                                            <img src="img/img-category@2x.jpg" alt="コーヒーの定期便">
+                                        </a>
+                                    </figure>
+                                    <div>
+                                        <h2>
+                                            <a href="#" title="オフィスでの一杯に">
+                                                <strong>オフィスでの一杯に</strong>
+                                            </a>
+                                        </h2>
+                                        <p>束の間の休息にリラックスを。定期購入でいつでもいただけます。</p>
+                                    </div>
+                                </li>
+                                <li class="gift">
+                                    <figure>
+                                        <a href="#" title="贈り物・ギフト">
+                                            <img src="img/img-category@3x.jpg" alt="贈り物・ギフト">
+                                        </a>
+                                    </figure>
+                                    <div>
+                                        <h2>
+                                            <a href="#" title="贈り物・ギフト">
+                                                <strong>大切な人への贈り物に</strong>
+                                            </a>
+                                        </h2>
+                                        <p>数多あるギフトからあなた好みでセレクトできます。</p>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <figure>
+                                        <a href="#" title="日常のお供に">
+                                            <img src="img/img-category@4x.jpg" alt="日常のお供に">
+                                        </a>
+                                    </figure>
+                                    <div>
+                                        <h2>
+                                            <a href="#" title="日常のお供に">
+                                                <strong>日常のお供に</strong>
+                                            </a>
+                                        </h2>
+                                        <p>あなたのコーヒーライフが豊かになるアイテムを厳選しました。</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+
+                        <!-- おすすめ -->
+                        <section class="sec-coupon">
+                            <h2 class="title-center">
+                                <span>Coupon</span>
+                                <b>クーポン</b>
+                            </h2>
+                            <div class="banner">
+                                <!-- クーポン -->
+                                <div class="bnr">
+                                    <div class="bnr-list">
+                                        <a href="#" title="クーポン">
+                                            <div class="txt">
+                                                <h2>
+                                                    <img src="img/logo-coffee.svg" alt="クーポン">
+                                                </h2>
+                                                <p>最高のコーヒーを引き立てるお菓子たち。最高のコーヒータイムにしていただきたい。そんな想いからお好きなお菓子をお得にいただけるプレゼントをご用意しました。</p>
+                                            </div>
+                                            <div class="img"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>    
+                        </section>
+
+                        <!-- スタッフブログ -->
+                        <section class="sec-blog">
+                            <h2 class="title-center">
+                                <span>Staff Blog</span>
+                                <b>スタッフブログ</b>
+                            </h2>
+                            <div class="blog-wrap">
+                                <div class="blog-list">
+                                    <article>  
+                                        <a href="#" title="店舗一部リニューアルのお知らせ">
+                                            <figure>
+                                                <img src="img/img-blog@1x.jpg" alt="店舗一部リニューアルのお知らせ">
+                                            </figure>
+                                            <h2>店舗一部リニューアルのお知らせ</h2>
+                                        </a>
+                                        <div class="time-category-wrap">
+                                            <time class="font-sz">2022.3.20</time>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <a href="#" title="店舗での新商品の先行販売を開始しました">
+                                            <figure>
+                                                <img src="img/img-blog@2x.jpg" alt="店舗での新商品の先行販売を開始しました">
+                                            </figure>
+                                            <h2>店舗での新商品の先行販売を開始しました</h2>
+                                        </a>
+                                        <div class="time-category-wrap">
+                                            <time class="font-sz">2022.2.15</time>
+                                        </div> 
+                                    </article>
+                                    <article>
+                                        <a href="#" title="2022年もよろしくお願いいたします">
+                                            <figure>
+                                                <img src="img/img-blog@3x.jpg" alt="2022年もよろしくお願いいたします">
+                                            </figure>
+                                                <h2>2022年もよろしくお願いいたします</h2>
+                                        </a>
+                                        <div class="time-category-wrap">
+                                            <time class="font-sz">2022.1.6</time>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>     
+                        </section>
+
+                    </div>
+                    
+                    <!-- フッター -->
+                    <footer>
+                        <div class="inner">
+                            <div class="inner-main">
+                                <nav class="gnav">
+                                    <ul>
+                                        <li><a href="#" title="私たちについて">私たちについて</a></li>
+                                        <li><a href="#" title="カテゴリー">カテゴリー</a></li>
+                                        <li><a href="#" title="おすすめ">おすすめ</a></li>
+                                        <li><a href="#" title="お得な情報">お得な情報</a></li>
+                                        <li><a href="#" title="スタッフブログ">スタッフブログ</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" title="About Us">About Us</a></li>
+                                        <li><a href="#" title="Category">Category</a></li>
+                                        <li><a href="#" title="Recommend">Recommend</a></li>
+                                        <li><a href="#" title="Coupon">Coupon</a></li>
+                                        <li><a href="#" title="Staff Blog">Staff Blog</a></li>
+                                    </ul>
+                                    <div class="qr">
+                                        <div class="grp-google">
+                                            <p class="qr-txt">GOOGLE</p>
+                                            <img src="img/img-qrcode.png" alt="Google qr">
+                                        </div>
+                                        <div class="grp-apple">
+                                            <p class="qr-txt">APPLE</p>
+                                            <img src="img/img-qrcode.png" alt="apple qr">
+                                        </div>
+                                    </div>
+                                </nav>
+                                <small class="copyright">© <span class="font-en-sr">COFFEE BREAK INC.</span></small>
+                            </div>			
+                        </div>
+                    </footer>
+
+                    <!-- イメージ下（右） -->
+                    <div class="top-end">
+                        <div class="img"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
